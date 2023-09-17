@@ -1,0 +1,205 @@
+
+body {
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 300vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+header {
+    color: #f8f6f6;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+.school {
+
+    color: #f5f3f3;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.hobbies {
+
+    padding: 10px;
+    color: #fcf9f9;
+    font-size: xx-large;
+}
+
+.books {
+
+    padding: 10px;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.subjects {
+
+    padding: 10px;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.quotes {
+
+    padding: 10px;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.movies {
+
+    padding: 10px;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.inspirations {
+
+    color: #f5f3f3;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+
+img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    transition: width 0.3s ease;
+}
+@media (min-width:0px) and (max-width: 767px) {
+    /* Мобільний розмір екрану */
+    img {
+        max-width: 250px;
+    }
+
+    p {
+        font-size: small;
+        font-family: Times, "Times New Roman", Georgia, serif;
+    }
+
+    h1 {
+        font-size: small;
+        font-family: Times, "Times New Roman", Georgia, serif;
+    }
+
+    ul {
+        font-size: small;
+        font-family: Times, "Times New Roman", Georgia, serif;
+    }
+
+    li {
+        font-size: small;
+        font-family: Times, "Times New Roman", Georgia, serif;
+    }
+
+
+    @media (max-width: 767px) {
+
+        img {
+            max-width: 200px;
+        }
+
+        p {
+            font-size: medium;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        h1 {
+            font-size: medium;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        ul {
+            font-size: medium;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        li {
+            font-size: medium;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+
+        img {
+            max-width: 580px;
+        }
+
+        p {
+            font-size: large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        h1 {
+            font-size: large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        ul {
+            font-size: large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        li {
+            font-size: large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+    }
+
+
+    @media (min-width: 1024px) {
+
+        img {
+            max-width: 900px;
+        }
+
+        p {
+            font-size: xx-large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        h1 {
+            font-size: xx-large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        ul {
+            font-size: xx-large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+        li {
+            font-size: xx-large;
+            font-family: Times, "Times New Roman", Georgia, serif;
+        }
+
+
+    }
+}
+img {
+    border-radius: 8px;
+}
+
+header img {
+    border-radius: 50%;
+}
